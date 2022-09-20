@@ -1120,7 +1120,7 @@ img {
 /* Counter */
 .counter {
 	text-align: center;
-	background-image: url(../img/counter-bg.jpg);
+	background-image: url(../img/counter-bg.webp);
 	height: auto;
 }
 @media only screen and (min-width: 768px) {
@@ -1243,7 +1243,7 @@ img {
 	height: 450px;
 	overflow: hidden;
 	border-radius: 0;
-	background-image: url(../img/video-bg.jpg);
+	background-image: url(../img/video-bg.webp);
 }
 .invitation .video:hover .overlay {
 	opacity: 0.5;
@@ -1277,11 +1277,11 @@ img {
 	margin-bottom: 0;
 }
 .banner_top {
-	background-image: url(../img/header-bg.jpg);
+	background-image: url(../img/header-bg.webp);
 }
 .banner_bottom {
 	padding: 222px 0 0 0;
-	background-image: url(../img/footer.png);
+	background-image: url(../img/footer.webp);
 }
 .banner_bottom h2 {
 	margin: 0;
@@ -1706,14 +1706,14 @@ footer .copyright .block {
 	color: #FFFFFF;
 }
 .message-success {
-	background: url(../img/accept.png) no-repeat;
+	background: url(../img/accept.webp) no-repeat;
 	width: 464px;
 	height: 337px;
 	margin: 0 auto;
 }
 /* Countdown */
 .countdown.section {
-	background-image: url(../img/countdown.png);
+	background-image: url(../img/countdown.webp);
 }
 .countdown .heading {
 	margin-bottom: 8em;
@@ -1991,6 +1991,6 @@ footer .copyright .block {
 }
 /* ring */
 .ring.section {
-	background-image: url(../img/ring.png);
+	background-image: url(../img/ring.webp);
 	min-height: 184px;
 }
