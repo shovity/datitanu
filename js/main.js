@@ -6,7 +6,7 @@
         
         setTimeout(function() {
             $('.cover .display-tc').addClass('fadeInUp');
-        }, 700); 
+        }, 600); 
     });
 
     // Page scroll
