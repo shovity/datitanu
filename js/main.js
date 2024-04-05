@@ -81,7 +81,7 @@
         var countdown = document.querySelector('.countdown');
 
         function getTimeRemaining(endtime) {
-            var t = Date.parse(endtime) - Date.parse(new Date());
+            var t = Date.parse(new Date()) - Date.parse(endtime);
             var seconds = Math.floor((t / 1000) % 60);
             var minutes = Math.floor((t / 1000 / 60) % 60);
             var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
@@ -141,7 +141,7 @@
             var timeinterval = setInterval(updateClock, 1000);
         }
         // set your wedding date here
-        var deadline = '2022-10-10T04:00:00.000Z';
+        var deadline = '2022-10-11T04:00:00.000Z';
         if (countdown){
             initializeClock('timer', deadline);
         }
